@@ -22,6 +22,7 @@ Pour désactiver un noeud, mettre l'attribut "active" à la valeur "0".
 
 Modèle de fichier JSON (avec commentaires):
 
+```
 {  
     "organisme": "Organism 1", # Nom de l'organisme concerné  
     "nodes": [  
@@ -44,3 +45,4 @@ Modèle de fichier JSON (avec commentaires):
         }  
     ]  
 }  
+```
