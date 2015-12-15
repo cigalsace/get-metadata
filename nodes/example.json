@@ -1,0 +1,22 @@
+{
+    "organisme": "Organism 1",
+    "nodes": [
+        {
+            "description": "Harvesting node 1 of Org 1",
+            "active": "1",
+            "src_domain": "http://my-domain.dom",
+            "src_path": "path/to/metadata/XML/",
+            "dst_path": "xml/org-1/",
+            "pattern": "<a href=\"/%s.*?\"><tt>(.*?)</tt></a>"
+        },
+        {
+            "description": "Empty harvesting node",
+            "active": "0",
+            "src_domain": "",
+            "src_path": "",
+            "dst_path": "",
+            "dst_path": "",
+            "pattern": ""
+        }
+    ]
+}
