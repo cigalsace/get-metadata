@@ -22,25 +22,25 @@ Pour désactiver un noeud, mettre l'attribut "active" à la valeur "0".
 
 Modèle de fichier JSON (avec commentaires):
 
-> {
->     "organisme": "Organism 1", # Nom de l'organisme concerné
->     "nodes": [
->         {
->             "description": "Harvesting node 1 of Org 1",        # Description du point de moissonage 
->             "active": "1",                                      # Indique si le noeud est catif et sera moissoné
->             "src_domain": "http://my-domain.dom",               # Nom de domaine source
->             "src_path": "path/to/metadata/XML/",                # Chemin vers les fichiers à télécharger sur le serveur à partir du nom de domaine source
->             "dst_path": "xml/org-1/",                           # Chemin local cible (relatif ou absolu)
->             "pattern": "<a href=\"/%s.*?\"><tt>(.*?)</tt></a>"  # Pattern de récupération des noms de fichier sur la page HTML source
->         },
->         {
->             "description": "Empty harvesting node",
->             "active": "0",
->             "src_domain": "",
->             "src_path": "",
->             "dst_path": "",
->             "dst_path": "",
->             "pattern": ""
->         }
->     ]
-> }
+> {  
+>     "organisme": "Organism 1", # Nom de l'organisme concerné  
+>     "nodes": [  
+>         {  
+>             "description": "Harvesting node 1 of Org 1",        # Description du point de moissonage   
+>             "active": "1",                                      # Indique si le noeud est catif et sera moissoné  
+>             "src_domain": "http://my-domain.dom",               # Nom de domaine source  
+>             "src_path": "path/to/metadata/XML/",                # Chemin vers les fichiers à télécharger sur le serveur à partir du nom de domaine source  
+>             "dst_path": "xml/org-1/",                           # Chemin local cible (relatif ou absolu)  
+>             "pattern": "<a href=\"/%s.*?\"><tt>(.*?)</tt></a>"  # Pattern de récupération des noms de fichier sur la page HTML source  
+>         },  
+>         {  
+>             "description": "Empty harvesting node",  
+>             "active": "0",  
+>             "src_domain": "",  
+>             "src_path": "",  
+>             "dst_path": "",  
+>             "dst_path": "",  
+>             "pattern": ""  
+>         }  
+>     ]  
+> }  
